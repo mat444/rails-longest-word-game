@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+}
+
+.letterbox {
+  background-color: rgb(52, 152, 220);
+  color: white;
+  margin: 5px;
+/*  border: solid 1px lightgrey;*/
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3px;
+  box-shadow: 1px 1px 5px grey;
+}
